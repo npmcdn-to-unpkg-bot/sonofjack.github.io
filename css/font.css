@@ -1,0 +1,24 @@
+@font-face {
+  font-family: klavikaRegular;
+  src: url('fonts/klavika-regular-webfont.woff2') format('woff2'),
+       url('fonts/klavika-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: klavikaMedium;
+  src: url('fonts/klavika-medium-webfont.woff2') format('woff2'),
+       url('fonts/klavika-medium-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+.klavika-regular {
+  font-family: klavikaRegular, sans-serif;
+  /*font-weight: 400;*/
+  font-style: normal;
+}
+.klavika-medium {
+  font-family: klavikaMedium, sans-serif;
+  /*font-weight: 400;*/
+  font-style: normal;
+}
